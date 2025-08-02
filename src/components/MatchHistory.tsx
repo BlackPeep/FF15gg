@@ -1,5 +1,5 @@
 import { formatTimeAgo } from "../helper/formatTimeAgo";
-import { useLatestDDragonVersion } from "../helper/useLatestDDragonVersion";
+import { useLatestDDragonVersion } from "../hooks/useLatestDDragonVersion";
 
 export default function MatchHistory({ data, puuid }: any) {
   const patchVersion = useLatestDDragonVersion();
